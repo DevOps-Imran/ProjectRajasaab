@@ -23,16 +23,6 @@ package SamplePrograms;
 	        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	        setLocationRelativeTo(null); // Center the frame
 
-	        // Panel
-	        JPanel panel = new JPanel();
-	        panel.setLayout(null);
-	        add(panel);
-
-	        // Username label and text field
-	        userLabel = new JLabel("Username:");
-	        userLabel.setBounds(20, 20, 80, 25);
-	        panel.add(userLabel);
-
 	        userText = new JTextField(20);
 	        userText.setBounds(100, 20, 200, 25);
 	        panel.add(userText);
